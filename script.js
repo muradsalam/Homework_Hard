@@ -1,7 +1,7 @@
 let height = prompt('Boyunuzu yazin.');
 let weight = prompt('Cekinizi yazin.');
-let BMI = weight / (height * height)
-let netice
+let BMI = (weight / (height * height)) / 10;
+let netice;
 
 
 if (BMI < 18) {
@@ -21,7 +21,7 @@ if (BMI < 18) {
 } else if (BMI > 41) {
     netice = 'Siz, 4-cu dereceli artiq cekiden eziyyet cekirsiniz.';
 } else {
-    netice = 'Sizin basinizda problem var.'
+    netice = 'Sizin basinizda problem var.';
 }
 
 
